@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV. MITRA UTAMA TEKNOLOGI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        /* Custom CSS */
+        .navbar-light .navbar-nav .nav-link {
+            color: #333;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .keuntungan-item {
+            transition: transform 0.3s ease;
+        }
+        .keuntungan-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+        }
+        .kartu-tutor {
+            transition: transform 0.3s ease;
+        }
+        .kartu-tutor:hover {
+            transform: scale(1.1);
+        }
+        .kartu-partner {
+            transition: transform 0.3s ease;
+        }
+        .kartu-partner:hover {
+            transform: scale(1.1);
+        }
+        .vertical-line {
+            border-left: 2px solid #ddd;
+            height: 100px; /* Sesuaikan tinggi garis vertikal */
+            margin: 0 20px;
+        }
+        /* Efek Hover untuk Link di Navbar */
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: #007bff; /* Ubah warna teks navbar saat dihover */
+        }
+        /* Widget Style */
+        #widget {
+          position: fixed;
+          bottom: 20px; /* Jarak dari bawah layar */
+          left: 20px;  /* Jarak dari kiri layar */
+          z-index: 100; /* Pastikan widget di atas elemen lain */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="gambar/logo.png" alt="Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tutors">Founder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#partners">Partners</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#layanan">Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontak">Kontak</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#keuntungan">Mengapa Memilih Kami?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="legalitas.html">Legalitas</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="home" class="py-5" style="background: url('gambar/header-bg.jpg') no-repeat center center; background-size: cover;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="display-4 animate__animated animate__fadeInRight text-light">Selamat Datang di CV MITRA UTAMA TEKNOLOGI</h2>
+                <p class="lead animate__animated animate__fadeInRight text-light">Mitra Anda dalam Solusi Teknologi Informasi</p> 
+                <p class="animate__animated animate__fadeInRight text-light">CV MITRA UTAMA TEKNOLOGI adalah perusahaan yang bergerak di bidang teknologi informasi. Kami berkomitmen untuk menyediakan solusi teknologi informasi yang inovatif dan berkualitas tinggi untuk membantu bisnis Anda tumbuh dan berkembang.</p>
+                <a href="#layanan" class="btn btn-primary animate__animated animate__fadeInUp">Lihat Layanan Kami <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="col-md-6">
+                <img src="gambar/home.png" class="img-fluid animate__animated animate__fadeInLeft" alt="Gambar Home" loading="lazy">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<section id="partners" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="display-4">Partners <i class="fas fa-handshake"></i></h2>
+            <p class="lead">Ini adalah partners resmi kami</p>
+        </div>
+
+        <div class="partner-list row mt-5">
+                <div class="col-md-3 kartu-partner mb-4">
+                    <a href="#">
+                        <img src="gambar/partners1.jpeg" class="img-fluid" alt="Partner 1 Logo" loading="lazy">
+                    </a>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="layanan" class="py-5">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="display-4">Layanan Kami <i class="fas fa-cogs"></i></h2>
+            <p class="lead">Berikut adalah layanan yang kami tawarkan:</p>
+        </div>
+
+        <div class="layanan-list row mt-5">
+            <div class="col-md-12">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-desktop fa-fw me-2"></i> Perdagangan besar komputer dan perlengkapan komputer</li>
+                    <li class="mb-2"><i class="fas fa-laptop-code fa-fw me-2"></i> Perdagangan besar piranti lunak</li>
+                    <li class="mb-2"><i class="fas fa-server fa-fw me-2"></i> Aktivitas hosting dan YBDI</li>
+                    <li class="mb-2"><i class="fas fa-database fa-fw me-2"></i> Aktivitas pengolahan data</li>
+                    <li class="mb-2"><i class="fas fa-microchip fa-fw me-2"></i> Aktivitas teknologi informasi dan jasa komputer lainnya</li>
+                    <li class="mb-2"><i class="fas fa-chart-line fa-fw me-2"></i> Aktivitas konsultasi manajemen lainnya</li>
+                    <li class="mb-2"><i class="fas fa-shield-alt fa-fw me-2"></i> Aktivitas konsultasi keamanan informasi</li>
+                    <li class="mb-2"><i class="fas fa-user-cog fa-fw me-2"></i> Aktivitas konsultasi komputer dan manajemen fasilitas komputer lainnya</li>
+                    <li class="mb-2"><i class="fas fa-certificate fa-fw me-2"></i> Aktivitas penyediaan sertifikat elektronik dan layanan yang menggunakan sertifikat elektronik</li>
+                    <li class="mb-2"><i class="fas fa-shopping-cart fa-fw me-2"></i> Aktivitas pengembangan aplikasi perdagangan melalui internet (e-commerce)</li>
+                    <li class="mb-2"><i class="fas fa-gamepad fa-fw me-2"></i> Aktivitas pengembangan video game</li>
+                    <li class="mb-2"><i class="fas fa-id-card fa-fw me-2"></i> Aktivitas penyediaan identitas digital</li>
+                    <li class="mb-2"><i class="fas fa-network-wired fa-fw me-2"></i> Jasa sistem komunikasi data</li>
+                    <li class="mb-2"><i class="fas fa-code fa-fw me-2"></i> Aktivitas pemrograman komputer lainnya</li>
+                    <li class="mb-2"><i class="fas fa-brain fa-fw me-2"></i> Aktivitas pemrograman berbasis kecerdasan artifisial</li>
+                    <li class="mb-2"><i class="fas fa-pencil-ruler fa-fw me-2"></i> Perdagangan besar alat tulis dan gambar</li>
+                    <li class="mb-2"><i class="fas fa-tools fa-fw me-2"></i> Reparasi komputer dan peralatan sejenisnya</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="kontak" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="display-4">Kontak Kami <i class="fas fa-phone"></i></h2>
+            <p class="lead">Jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang layanan kami, silakan hubungi kami.</p>
+        </div>
+
+        <div class="kontak-info row mt-5">
+            <div class="col-md-4 text-center">
+                <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
+                <p>Jl. Lorong Terate Perumahan Ridena Nomor L3, RT 011 RW 020, Kelurahan Mendalo Darat, Kecamatan Jambi Luar Kota, Kabupaten Muaro Jambi, Jambi 36361</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-envelope fa-3x mb-3"></i>
+                <p><a href="mailto:emailmu@domain.com">emailmu@domain.com</a></p>
+            </div>
+            <div class="col-md-4 text-center">
+                <i class="fas fa-phone fa-3x mb-3"></i>
+                <p><a href="tel:+6212345678">+62 1234 5678</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="keuntungan" class="py-5">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="display-4">Mengapa Memilih Kami? <i class="fas fa-question-circle"></i></h2>
+            <p class="lead">Temukan keuntungan dan nilai tambah yang akan Anda dapatkan dengan memilih CV MITRA UTAMA TEKNOLOGI sebagai mitra TI Anda.</p>
+        </div>
+
+        <div class="keuntungan-grid row mt-5">
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Solusi Lengkap</h3>
+                <p>Kami menyediakan solusi TI yang lengkap dan terintegrasi, mulai dari perangkat keras dan perangkat lunak hingga layanan konsultasi dan reparasi.</p>
+            </div>
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Kualitas Terjamin</h3>
+                <p>Kami hanya menyediakan produk dan layanan berkualitas tinggi dari merek-merek terkemuka untuk memastikan kepuasan Anda.</p>
+            </div>
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Tim Profesional</h3>
+                <p>Tim kami terdiri dari para profesional berpengalaman di bidang teknologi informasi yang siap membantu Anda menemukan solusi terbaik.</p>
+            </div>
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Harga Kompetitif</h3>
+                <p>Kami menawarkan harga yang kompetitif dan transparan untuk semua produk dan layanan kami.</p>
+            </div>
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Layanan Pelanggan Terbaik</h3>
+                <p>Kepuasan pelanggan adalah prioritas utama kami. Kami siap memberikan layanan pelanggan yang responsif dan ramah.</p>
+            </div>
+            <div class="col-md-4 keuntungan-item mb-4">
+                <h3><i class="fas fa-check-circle"></i> Kemitraan Strategis</h3>
+                <p>Kami menjalin kemitraan strategis dengan perusahaan-perusahaan terkemuka seperti WPG untuk memberikan nilai tambah bagi Anda.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="widget" class="py-5">
+  <div class="container">
+    <div class="col"> 
+        <div class="card shadow-sm mb-3">
+          <div class="card-body text-center">
+            <i class="fas fa-calendar-alt fa-4x text-primary mb-3"></i>
+            <h5 class="card-title fw-bold">Tanggal</h5>
+            <div id="tanggal" class="h5"></div>
+          </div>
+        </div>
+        <div class="card shadow-sm mb-3">
+          <div class="card-body text-center">
+            <i class="fas fa-clock fa-4x text-secondary mb-3"></i>
+            <h5 class="card-title fw-bold">Jam</h5>
+            <div id="jam" class="h5"></div>
+          </div>
+        </div>
+        <div class="card shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-mosque fa-4x text-success mb-3"></i>
+            <h5 class="card-title fw-bold">Jadwal Shalat</h5>
+            <div id="jadwal-shalat">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<scriptsrc="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+// Fungsi untuk menampilkan tanggal
+function tampilkanTanggal() {
+    var hari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+    var bulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+    var tanggal = new Date();
+    var hariIni = hari[tanggal.getDay()];
+    var tanggalIni = tanggal.getDate();
+    var bulanIni = bulan[tanggal.getMonth()];
+    var tahunIni = tanggal.getFullYear();
+    var teksTanggal = hariIni + ', ' + tanggalIni + ' ' + bulanIni + ' ' + tahunIni;
+    $('#tanggal').text(teksTanggal);
+}
+
+// Fungsi untuk menampilkan jam
+function tampilkanJam() {
+    var waktu = new Date();
+    var jam = waktu.getHours();
+    var menit = waktu.getMinutes();
+    var detik = waktu.getSeconds();
+    jam = (jam < 10) ? "0" + jam : jam;
+    menit = (menit < 10) ? "0" + menit : menit;
+    detik = (detik < 10) ? "0" + detik : detik;
+    var waktuSekarang = jam + ":" + menit + ":" + detik;
+    $('#jam').text(waktuSekarang);
+}
+
+// Fungsi untuk menampilkan jadwal shalat
+function tampilkanJadwalShalat(latitude, longitude) {
+    var method = 5; // Metode perhitungan
+    var cacheKey = 'jadwalShalat-' + latitude + '-' + longitude + '-' + method;
+    var cachedData = localStorage.getItem(cacheKey);
+
+    if (cachedData) {
+        // Tampilkan data dari cache
+        $('#jadwal-shalat').html(cachedData);
+    }
+
+    // Request API untuk memperbarui cache
+    $.getJSON('https://api.aladhan.com/v1/calendar?latitude=' + latitude + '&longitude=' + longitude + '&method=' + method + '&month=' + (new Date()).getMonth() + '&year=' + (new Date()).getFullYear(), function(data) {
+        var jadwal = data.data[(new Date()).getDate() - 1].timings;
+        var html = '<ul class="list-unstyled">';
+        html += '<li>Subuh: ' + jadwal.Fajr + '</li>';
+        html += '<li>Dzuhur: ' + jadwal.Dhuhr + '</li>';
+        html += '<li>Ashar: ' + jadwal.Asr + '</li>';
+        html += '<li>Maghrib: ' + jadwal.Maghrib + '</li>';
+        html += '<li>Isya: ' + jadwal.Isha + '</li>';
+        html += '</ul>';
+        $('#jadwal-shalat').html(html);
+        
+        // Simpan data ke cache
+        localStorage.setItem(cacheKey, html);
+    });
+}
+
+// Cek apakah Geolocation API didukung
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        tampilkanJadwalShalat(latitude, longitude);
+    }, function(error) {
+        console.error("Error getting location:", error);
+        // Tampilkan pesan error atau gunakan koordinat default jika gagal mendapatkan lokasi
+        $('#jadwal-shalat').html("<p>Gagal mendapatkan lokasi. Pastikan fitur lokasi diaktifkan.</p>");
+    });
+} else {
+    // Geolocation API tidak didukung, gunakan koordinat default
+    $('#jadwal-shalat').html("<p>Geolocation tidak didukung oleh browser ini.</p>");
+}
+
+// Panggil fungsi untuk pertama kali
+tampilkanTanggal();
+tampilkanJam();
+
+// Update jam setiap detik
+setInterval(tampilkanJam, 1000);
+});
+</script>
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start">
+                <p>&copy; 2023 CV MITRA UTAMA TEKNOLOGI</p>
+                <p><a href="#" class="text-light">Syarat & Ketentuan</a> | <a href="#" class="text-light">Kebijakan Privasi</a> | <a href="#" class="text-light">FAQ</a></p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-twitter fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 CV MITRA UTAMA TEKNOLOGI</p>
+                    <p><a href="#" class="text-light">Syarat & Ketentuan</a> | <a href="#" class="text-light">Kebijakan Privasi</a> | <a href="#" class="text-light">FAQ</a></p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-facebook fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-twitter fa-2x"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-light"><i class="fab fa-instagram fa-2x"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    </body>
+    </html>
