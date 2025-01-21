@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
   margin: 0;
   padding: 0;
+  color:  black  !important;  /*  Mengubah  warna  teks  menjadi  hitam  */
   background-color: #f8f9fa;
 }
 
